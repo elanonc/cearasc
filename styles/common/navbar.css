@@ -1,0 +1,57 @@
+.header-container {
+    background-color: var(--cinza);
+    padding-inline: 100px;
+    margin-top: 20px;
+}
+
+.header-container .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo {
+    width: 40px;
+}
+
+header nav a:hover {
+    color: #bbbbbb;
+}
+
+.navpage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.social-media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #bbbbbb;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}

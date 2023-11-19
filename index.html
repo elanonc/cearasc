@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/reset/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="styles/common/navbar.css">
+    <link rel="stylesheet" href="styles/components/slider.css">
+
+    <script src="scripts/script.js"></script>
+
+    <title>Ceará Sporting Club</title>
+</head>
+<body>
+
+    <header class="header-container">
+        <nav class="navbar">
+            <a href="" target="_blank" class="logo-link">
+                <img src="assets/cearasclogo.png" alt="ceará sc" class="logo">
+                <!-- <img src="assets/svg/" alt="ceará sc" class="logo"> -->
+            </a>
+            <div class="navpage">
+                <a href="https://www.google.com/search?client=firefox-b-d&q=tabela+da+serie+b#sie=lg;/g/11tj9phg47;2;/m/0fnkb5;st;fp;1;;;" target="_blank">Classificação</a>
+                <a href="https://www.google.com/search?client=firefox-b-d&q=ceara+sc#sie=t;/m/05wlgn;2;/m/0fnkb5;pl;fp;1;;;" target="_blank">Jogadores</a>
+                <a href="https://www.google.com/search?client=firefox-b-d&q=ceara+sc#sie=t;/m/05wlgn;2;/m/0fnkb5;mt;fp;1;;;" target="_blank">Jogos</a>
+                <a href="https://www.youtube.com/@CearaSC" target="_blank">Vídeos</a>
+            </div>
+
+            <div class="social-media">
+                <div class="social-media-icon">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                        <image xlink:href="assets/svg/iconmonstr-twitter-1.svg" width="100" height="100" />
+                    </svg>
+                </div>
+                <div class="social-media-icon">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                        <image xlink:href="assets/svg/iconmonstr-instagram-11.svg" width="100" height="100" />
+                    </svg>
+                </div>
+                <div class="social-media-icon">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                        <image xlink:href="assets/svg/iconmonstr-facebook-1.svg" width="100" height="100" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- <div class="carousel-container">
+            <button id="prevBtn" onclick="changeSlide(-1)"> < </button>
+            <div class="carousel-content">
+                <div class="carousel-item">
+                    <img src="assets/ceara/1.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/ceara/2.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/ceara/3.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/ceara/4.png" alt="">
+                </div>
+            </div>
+            <button id="nextBtn" onclick="changeSlide(1)"> > </button>
+        </div> -->
+        <div class="slider">
+            <button onclick="prec()"> < </button>
+                    <div class="img_slider">
+                        <img src="assets/ceara/1.png">
+                        <img src="assets/ceara/2.png">
+                        <img src="assets/ceara/3.png">
+                        <img src="assets/ceara/4.png">
+                        <img src="assets/ceara/1.png">
+
+                    </div>
+                    <button onclick="succ()"> > </button>
+        </div>
+    </main>
+
+</body>
+</html>
