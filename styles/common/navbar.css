@@ -23,7 +23,7 @@
 }
 
 header nav a:hover {
-    color: #bbbbbb;
+    color: white;
 }
 
 .navpage {
@@ -41,14 +41,19 @@ header nav a:hover {
     gap: 10px;
 }
 
-.social-media-icon {
+.social-media a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 32px;
     height: 32px;
+    cursor: pointer;
     border-radius: 10px;
     background-color: #bbbbbb;
+}
+
+.social-media a:hover {
+    background-color: white;
 }
 
 .icon {
