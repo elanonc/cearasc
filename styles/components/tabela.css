@@ -1,0 +1,43 @@
+.tabela-campeonato {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 76px;
+    background-color: #fff;
+    color: black;
+    margin-inline: auto;
+}
+
+.tabela-campeonato th,
+.tabela-campeonato td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-campeonato th {
+    background-color: #f2f2f2;
+}
+
+.tabela-campeonato tr:hover {
+    background-color: #f5f5f5;
+}
+
+.escudo {
+    width: 25px;
+    margin-right: 10px;
+}
+
+/* Nova classe para centralizar conteúdo na célula */
+.centralizado {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -10,8 +10,11 @@
 
     <link rel="stylesheet" href="styles/common/navbar.css">
     <link rel="stylesheet" href="styles/components/slider.css">
+    <link rel="stylesheet" href="styles/components/form.css">
+    <link rel="stylesheet" href="styles/components/tabela.css">
 
-    <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/tabela.js"></script>
 
     <title>Ceará Sporting Club</title>
 </head>
@@ -51,37 +54,32 @@
     </header>
 
     <main class="main">
-        <!-- <div class="carousel-container">
-            <button id="prevBtn" onclick="changeSlide(-1)"> < </button>
-            <div class="carousel-content">
-                <div class="carousel-item">
-                    <img src="assets/ceara/1.png" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/ceara/2.png" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/ceara/3.png" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/ceara/4.png" alt="">
-                </div>
-            </div>
-            <button id="nextBtn" onclick="changeSlide(1)"> > </button>
-        </div> -->
         <div class="slider">
             <button onclick="prec()"> < </button>
-                    <div class="img_slider">
-                        <img src="assets/ceara/1.png">
-                        <img src="assets/ceara/2.png">
-                        <img src="assets/ceara/3.png">
-                        <img src="assets/ceara/4.png">
-                        <img src="assets/ceara/1.png">
-
-                    </div>
-                    <button onclick="succ()"> > </button>
+                <div class="img_slider">
+                    <img src="assets/ceara/1.png">
+                    <img src="assets/ceara/2.png">
+                    <img src="assets/ceara/3.png">
+                    <img src="assets/ceara/4.png">
+                    <img src="assets/ceara/5.png">
+                </div>
+                <button onclick="succ()"> > </button>
         </div>
     </main>
+
+    <section class="tab">
+        <table class="tabela-campeonato">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Time</th>
+                    <th>Pontuação</th>
+                </tr>
+            </thead>
+            <tbody id="dados-tabela">
+            </tbody>
+        </table>
+    </section>
 
 </body>
 </html>
