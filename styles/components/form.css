@@ -1,0 +1,59 @@
+.form-section {
+    width: 280px;
+    margin-inline: auto;
+    margin-block: 204px;
+    background-color: white;
+    padding: 60px 50px 60px;
+    color: black;
+}
+
+.form-section * {
+    box-sizing: border-box;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-section input {
+    margin-bottom: 15px;
+}
+
+.form-section input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.form-section label {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.form-section input[type=checkbox] {
+    float: left;
+}
+
+.form-section input:not(:checked)+#phone {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.form-section #phone {
+    transition: .3s;
+}
+
+.form-section button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+}
